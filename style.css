@@ -1,96 +1,25 @@
 @import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
 
+* {
+  box-sizing: border-box;
+}
+
 body {
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-}
-
-.search-box {
-  position: absolute;
-  top: 65%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: #2f3640;
-  height: 40px;
-  border-radius: 40px;
-  padding: 10px;
-}
-
-.search-box:hover > .search-txt {
-  width: 240px;
-  padding: 0 6px;
-}
-
-.search-box:hover > .search-btn {
-  background: white;
-}
-
-.search-btn {
-  color: #06db18;
-  float: right;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background: #2f3640;
+  background-color: #8e44ad;
+  color: #fff;
+  font-family: "Roboto Mono", sans-serif;
   display: flex;
-  justify-content: center;
   align-items: center;
-  transition: 0.4s;
-}
-
-.search-txt {
-  border: none;
-  background: none;
-  outline: none;
-  float: left;
-  padding: 0;
-  color: white;
-  font-size: 16px;
-  transition: 0.4s;
-  line-height: 40px;
-  width: 0px;
-}
-
-.jumbotron {
-  padding-top: 6rem;
-  padding-bottom: 2rem;
-  background-color: #1d1e20;
-}
-
-#Layanan {
-  background-color: #1d1e20;
-}
-
-.svg {
-  margin-top: 90px;
-}
-
-section {
-  padding-top: 6rem;
-}
-
-::-webkit-scrollbar {
-  width: 12px;
-}
-
-::-webkit-scrollbar-thumb {
-  background: linear-gradient(transparent, #2f3640);
-  border-radius: 6px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(transparent, #30ff00);
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
 }
 
 .counter {
-  color: #ffffff;
-  text-align: center;
-  background-color: #1d1e20;
   font-size: 60px;
-  justify-content: center;
-  align-items: center;
+  margin-top: 30px;
 }
 
 /* SOCIAL PANEL CSS */
